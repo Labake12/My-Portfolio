@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labake's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/807bfaf453.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/White logo - no background.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>SOFTWARE ENGINEER</p>
+                <h1>Hey there, I am <span>Labake</span> <br>from Lagos, Nigeria</h1>
+                <p>I build Software and Buildings</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_5923_Original.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am an aspring sofware engineer currently studying computer science at Kibo school of technology. I am proficient in Python, JavaScript, HTML, and CSS. I am also good with designing web and mobile apps using design tools like figma and canva. I love learning new things and I look forward to working with you. Let's keep making positive impact in our community.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end</span><br>Ensure website users can easily interact with the page</li>
+                            <li><span>Back-end</span><br>Specialize in developing the server-side of web applications</li>
+                            <li><span>UI/UX</span><br>Designing web/mobile app interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Handling all social content for Kibo school</li>
+                            <li><span>2023 - Current</span><br>Software dev for CareerWise App</li>
+                            <li><span>2021 - 2021</span><br>Streetnomics/Jobberman - Research intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019-2025</span><br>Building at University of Lagos</li>
+                            <li><span>2022-2024</span><br>Computer science at Kibo school of Technology</li>
+                            <li><span>2014-2019</span><br>WASSCE St.Louis college</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-end</h2>
+                    <p>Using design tools to create empowering designs for users appeal</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Back-end</h2>
+                    <p>Using design tools to create empowering designs for users appeal</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Using design tools to create empowering designs for users appeal</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------portfolio--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img 2.jpg">
+                    <div class="layer">
+                        <h3>Pokemon web app</h3>
+                        <p>This app was designed to be able to see all types of pokemon, their abilities, and how best to use them during games - You can login with these details (email: coolemail@gmail.com; password: 123123, email: anotheremail@gmail.com; password: 098098)</p>
+                        <a href="https://week-9-final-project-labake12-be9q.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img 3.jpg">
+                    <div class="layer">
+                        <h3>CareerWise App</h3>
+                        <p>This app was designed to help secondary school students choose better career options that suite them.</p>
+                        <a href="https://careerwise-ng.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img 2.jpg">
+                    <div class="layer">
+                        <h3>Travel Planner App</h3>
+                        <p>This app was designed for users to sight see from their homes, book hotel reservations, and also see various local attractions from various cities around the world - You can login with these details (email: coolemail@gmail.com; password: 123123, email: anotheremail@gmail.com; password: 098098)</p>
+                        <a href="https://week-9-final-project-labake12-be9q.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> adegoroyelabake@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +2348122145144</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/labake_aa?igsh=OWJ1NWU1cWVmc3Bl&utm_source=qr"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/omolabake-adegoroye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/a_labake?s=21&t=tngbiqrDb7vJYgWmibLKNA"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                    <a href="images/Adegoroye Omolabake - Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Labake Adegoroye - Computer science student at Kibo School of Technology</p>
+        </div>
+    </div>
+
+  
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+    
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxMlzTDPWi05hqL2kdF6-WlWiIKTs_gh8fXLTrKdT7iiR9igDwaCshVgMtSFh-XiMQ_/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
